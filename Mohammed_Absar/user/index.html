@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mohammed_Absar</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src="jquery-3.6.4.min.js"></script>
+
+
+    </head>
+    <body background="backimg.jpg">
+        <div class="navpad">
+            <ul>
+                <li><a class="active" href="#">Home</a></li>
+            </ul>
+        </div>
+        <h1>
+            Welcome
+            <br>
+            <p>
+                
+                I'm Mohammed_Absar
+            </p>
+        </h1>
+        
+        <div class="details">
+        </div>
+                <img src="Photo.jpg" style="width:200px" >
+                <table border="0">
+                    <tr>
+                        <th>Name:</th>
+                        <td>Mohammed Absar</td>
+                    </tr>
+                    <tr>
+                        <th>
+                            District:
+                        </th>
+                        <td>
+                            Ampara
+                        </td>
+                    </tr>
+                    <tr>
+                         <th>
+                            Home Down:
+                        </th>
+                        <td>
+                            Sammanthurai.
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Location:
+                        </th>
+                        <td>
+                            <button type="button" class="togglebtn" style="height: 50px; width: 180px; background-color:green; border-radius: 25px; font-size: 20px; font-weight:bold;" >Toggle</button>
+
+                            <p class="slow">
+                                <a href="https://goo.gl/maps/n82nYFGJeEdpqCm96" target="_blank">SEE MAP</a>
+                            </p>
+                            <p class="class">
+                                67/Mal-13,Malayadi Gramam-01,
+                                <br> Sammanthurai.
+                            </p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            A/L Subject:
+                        </th>
+                        <td>
+                            Physical Science
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Selected Courese:
+                        </th>
+                        <td>
+                            Artfitial Intelligence
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Faculty:
+                        </th>
+                        <td>
+                            IT
+                        </td>
+                    </tr>
+
+                </table>
+
+                <script>
+
+                    
+                    $(document).ready(function(){
+                            $()
+                            $('.togglebtn').click(function(){
+                            $('p.slow').toggle("slow");
+                            $('p.class').toggle("2000");
+
+                        });
+                    });
+                </script>
+
+    </body>
+</html>
